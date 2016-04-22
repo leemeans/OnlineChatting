@@ -1,0 +1,7 @@
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/ffmpegandroid/CMakeFiles/edit_cache.dir
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/ffmpegandroid/CMakeFiles/rebuild_cache.dir
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/ffmpegandroid/CMakeFiles/list_install_components.dir
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/ffmpegandroid/CMakeFiles/install.dir
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/ffmpegandroid/CMakeFiles/install/local.dir
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/ffmpegandroid/CMakeFiles/install/strip.dir
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/ffmpegandroid/CMakeFiles/ffmpeg-linphone-x86.dir

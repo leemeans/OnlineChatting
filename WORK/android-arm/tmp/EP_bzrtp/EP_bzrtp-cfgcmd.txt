@@ -1,0 +1,1 @@
+cmd='/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake;-DENABLE_TESTS=ON;-DENABLE_TESTS=NO;-DENABLE_STATIC=YES;-DENABLE_SHARED=NO;-C/home/lee/linphone-android/linphone-android/WORK/android-arm//tmp/EP_bzrtp/EP_bzrtp-cache-$<CONFIG>.cmake;-GUnix Makefiles;/home/lee/linphone-android/linphone-android/submodules/bzrtp'

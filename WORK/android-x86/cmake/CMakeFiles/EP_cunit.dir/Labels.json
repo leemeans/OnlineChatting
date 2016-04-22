@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_cunit"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_cunit.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_cunit-complete.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_cunit/EP_cunit-install.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_cunit/EP_cunit-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_cunit/EP_cunit-download.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_cunit/EP_cunit-update.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_cunit/EP_cunit-patch.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_cunit/EP_cunit-configure.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_cunit/EP_cunit-build.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_cunit/EP_cunit-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EP_cunit" ],
+		"name" : "EP_cunit"
+	}
+}

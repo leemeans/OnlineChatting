@@ -1,0 +1,14 @@
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/lib/pkgconfig/bctoolbox.pc
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/lib/pkgconfig/bctoolbox-tester.pc
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/share/bctoolbox/cmake/BcToolboxTargets.cmake
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/share/bctoolbox/cmake/BcToolboxTargets-release.cmake
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/share/bctoolbox/cmake/BcToolboxConfig.cmake
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/share/bctoolbox/cmake/BcToolboxConfigVersion.cmake
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/include/bctoolbox/crypto.h
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/include/bctoolbox/port.h
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/include/bctoolbox/logging.h
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/include/bctoolbox/list.h
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/include/bctoolbox/map.h
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/include/bctoolbox/tester.h
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/lib/libbctoolbox-armeabi.so
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/lib/libbctoolbox-tester-armeabi.so

@@ -1,0 +1,7 @@
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/edit_cache.dir
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/rebuild_cache.dir
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/list_install_components.dir
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/install.dir
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/install/local.dir
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/install/strip.dir
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/opus.dir

@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_ffmpegandroid"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_ffmpegandroid.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_ffmpegandroid-complete.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_ffmpegandroid/EP_ffmpegandroid-install.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_ffmpegandroid/EP_ffmpegandroid-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_ffmpegandroid/EP_ffmpegandroid-download.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_ffmpegandroid/EP_ffmpegandroid-update.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_ffmpegandroid/EP_ffmpegandroid-patch.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_ffmpegandroid/EP_ffmpegandroid-configure.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_ffmpegandroid/EP_ffmpegandroid-build.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_ffmpegandroid/EP_ffmpegandroid-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EP_ffmpegandroid" ],
+		"name" : "EP_ffmpegandroid"
+	}
+}

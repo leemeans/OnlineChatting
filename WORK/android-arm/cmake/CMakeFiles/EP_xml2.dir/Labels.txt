@@ -1,0 +1,14 @@
+# Target labels
+ EP_xml2
+# Source files and their labels
+/home/lee/linphone-android/linphone-android/WORK/android-arm/cmake/CMakeFiles/EP_xml2
+/home/lee/linphone-android/linphone-android/WORK/android-arm/cmake/CMakeFiles/EP_xml2.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/cmake/CMakeFiles/EP_xml2-complete.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_xml2/EP_xml2-install.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_xml2/EP_xml2-mkdir.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_xml2/EP_xml2-download.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_xml2/EP_xml2-update.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_xml2/EP_xml2-patch.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_xml2/EP_xml2-configure.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_xml2/EP_xml2-build.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_xml2/EP_xml2-force_build.rule

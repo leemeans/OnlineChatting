@@ -1,0 +1,1 @@
+cmd='/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake;-DENABLE_DOC=ON;-DENABLE_DOC=NO;-DENABLE_STATIC=NO;-DENABLE_SHARED=YES;-C/home/lee/linphone-android/linphone-android/WORK/android-armv7//tmp/EP_ortp/EP_ortp-cache-$<CONFIG>.cmake;-GUnix Makefiles;/home/lee/linphone-android/linphone-android/submodules/linphone/oRTP'

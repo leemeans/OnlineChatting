@@ -1,0 +1,1 @@
+cmd='/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake;-DENABLE_FIXED_POINT=YES;-DENABLE_STATIC=YES;-DENABLE_SHARED=NO;-C/home/lee/linphone-android/linphone-android/WORK/android-arm//tmp/EP_opus/EP_opus-cache-$<CONFIG>.cmake;-GUnix Makefiles;/home/lee/linphone-android/linphone-android/submodules/externals/opus'

@@ -1,0 +1,14 @@
+# Target labels
+ EP_antlr3c
+# Source files and their labels
+/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_antlr3c
+/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_antlr3c.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_antlr3c-complete.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_antlr3c/EP_antlr3c-install.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_antlr3c/EP_antlr3c-mkdir.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_antlr3c/EP_antlr3c-download.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_antlr3c/EP_antlr3c-update.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_antlr3c/EP_antlr3c-patch.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_antlr3c/EP_antlr3c-configure.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_antlr3c/EP_antlr3c-build.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_antlr3c/EP_antlr3c-force_build.rule

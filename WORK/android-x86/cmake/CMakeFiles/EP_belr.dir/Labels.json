@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_belr"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_belr.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_belr-complete.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_belr/EP_belr-install.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_belr/EP_belr-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_belr/EP_belr-download.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_belr/EP_belr-update.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_belr/EP_belr-patch.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_belr/EP_belr-configure.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_belr/EP_belr-build.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_belr/EP_belr-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EP_belr" ],
+		"name" : "EP_belr"
+	}
+}

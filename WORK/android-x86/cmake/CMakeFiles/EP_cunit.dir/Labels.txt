@@ -1,0 +1,14 @@
+# Target labels
+ EP_cunit
+# Source files and their labels
+/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_cunit
+/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_cunit.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_cunit-complete.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_cunit/EP_cunit-install.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_cunit/EP_cunit-mkdir.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_cunit/EP_cunit-download.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_cunit/EP_cunit-update.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_cunit/EP_cunit-patch.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_cunit/EP_cunit-configure.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_cunit/EP_cunit-build.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_cunit/EP_cunit-force_build.rule

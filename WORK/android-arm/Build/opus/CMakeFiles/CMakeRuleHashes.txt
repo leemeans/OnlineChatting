@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+88852aeda9bc20117624ef91026db133 celt/arm/armopts-gnu.S
+65b66964f039841f90d2d96e504abad3 celt/arm/celt_pitch_xcorr_arm-gnu.S

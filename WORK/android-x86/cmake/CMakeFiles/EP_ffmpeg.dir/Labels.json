@@ -1,0 +1,59 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_ffmpeg"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_ffmpeg.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_ffmpeg-complete.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-install.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-download.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-update.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-patch.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-configure.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-build.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-postinstall.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EP_ffmpeg" ],
+		"name" : "EP_ffmpeg"
+	}
+}

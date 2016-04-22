@@ -1,0 +1,168 @@
+The target system is: Linux -  - armeabi-v7a
+The host system is: Linux - 4.2.0-35-generic - x86_64
+Determining if the mbedtls_ssl_init exist passed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a603/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2a603.dir/build.make CMakeFiles/cmTC_2a603.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a603.dir/CheckSymbolExists.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include -I/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/include  -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=softfp -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_2a603.dir/CheckSymbolExists.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2a603
+/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a603.dir/link.txt --verbose=1
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm      CMakeFiles/cmTC_2a603.dir/CheckSymbolExists.c.o  -o cmTC_2a603 -rdynamic /home/lee/android-ndk-r10c/sources/android/libportable/libs/armeabi-v7a/libportable.a /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/libgnustl_static.a -llog -march=armv7-a -Wl,--fix-cortex-a8 -no-canonical-prefixes -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now /home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/lib/libmbedtls.a /home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/lib/libmbedx509.a /home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/lib/libmbedcrypto.a 
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+
+File /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <mbedtls/ssl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mbedtls_ssl_init
+  return ((int*)(&mbedtls_ssl_init))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mbedtls_ssl_get_dtls_srtp_protection_profile exist passed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e449d/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e449d.dir/build.make CMakeFiles/cmTC_e449d.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e449d.dir/CheckSymbolExists.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include -I/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/include  -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=softfp -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_e449d.dir/CheckSymbolExists.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e449d
+/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e449d.dir/link.txt --verbose=1
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm      CMakeFiles/cmTC_e449d.dir/CheckSymbolExists.c.o  -o cmTC_e449d -rdynamic /home/lee/android-ndk-r10c/sources/android/libportable/libs/armeabi-v7a/libportable.a /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/libgnustl_static.a -llog -march=armv7-a -Wl,--fix-cortex-a8 -no-canonical-prefixes -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now /home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/lib/libmbedtls.a /home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/lib/libmbedx509.a /home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/lib/libmbedcrypto.a 
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+
+File /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <mbedtls/ssl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mbedtls_ssl_get_dtls_srtp_protection_profile
+  return ((int*)(&mbedtls_ssl_get_dtls_srtp_protection_profile))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CU_get_suite exist passed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51232/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_51232.dir/build.make CMakeFiles/cmTC_51232.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51232.dir/CheckSymbolExists.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include -I/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/include  -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=softfp -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_51232.dir/CheckSymbolExists.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_51232
+/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51232.dir/link.txt --verbose=1
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm      CMakeFiles/cmTC_51232.dir/CheckSymbolExists.c.o  -o cmTC_51232 -rdynamic /home/lee/android-ndk-r10c/sources/android/libportable/libs/armeabi-v7a/libportable.a /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/libgnustl_static.a -llog -march=armv7-a -Wl,--fix-cortex-a8 -no-canonical-prefixes -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now /home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/lib/libcunit.a 
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+
+File /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <CUnit/CUnit.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CU_get_suite
+  return ((int*)(&CU_get_suite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CU_set_trace_handler exist passed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4edd9/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4edd9.dir/build.make CMakeFiles/cmTC_4edd9.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4edd9.dir/CheckSymbolExists.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include -I/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/include  -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=softfp -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_4edd9.dir/CheckSymbolExists.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4edd9
+/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4edd9.dir/link.txt --verbose=1
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm      CMakeFiles/cmTC_4edd9.dir/CheckSymbolExists.c.o  -o cmTC_4edd9 -rdynamic /home/lee/android-ndk-r10c/sources/android/libportable/libs/armeabi-v7a/libportable.a /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/libgnustl_static.a -llog -march=armv7-a -Wl,--fix-cortex-a8 -no-canonical-prefixes -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now /home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/lib/libcunit.a 
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+
+File /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <CUnit/Util.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CU_set_trace_handler
+  return ((int*)(&CU_set_trace_handler))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da793/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_da793.dir/build.make CMakeFiles/cmTC_da793.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da793.dir/CheckIncludeFile.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include  -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=softfp -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_da793.dir/CheckIncludeFile.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_da793
+/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da793.dir/link.txt --verbose=1
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm      CMakeFiles/cmTC_da793.dir/CheckIncludeFile.c.o  -o cmTC_da793 -rdynamic /home/lee/android-ndk-r10c/sources/android/libportable/libs/armeabi-v7a/libportable.a /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/libgnustl_static.a -llog -march=armv7-a -Wl,--fix-cortex-a8 -no-canonical-prefixes -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now 
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0b98/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f0b98.dir/build.make CMakeFiles/cmTC_f0b98.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0b98.dir/CheckSymbolExists.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include  -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=softfp -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_f0b98.dir/CheckSymbolExists.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f0b98
+/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0b98.dir/link.txt --verbose=1
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm      CMakeFiles/cmTC_f0b98.dir/CheckSymbolExists.c.o  -o cmTC_f0b98 -rdynamic /home/lee/android-ndk-r10c/sources/android/libportable/libs/armeabi-v7a/libportable.a /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/libgnustl_static.a -llog -march=armv7-a -Wl,--fix-cortex-a8 -no-canonical-prefixes -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now 
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp'
+
+File /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/bctoolbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

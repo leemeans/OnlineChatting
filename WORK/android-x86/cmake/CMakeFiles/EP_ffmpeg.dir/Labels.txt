@@ -1,0 +1,15 @@
+# Target labels
+ EP_ffmpeg
+# Source files and their labels
+/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_ffmpeg
+/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_ffmpeg.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/cmake/CMakeFiles/EP_ffmpeg-complete.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-install.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-mkdir.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-download.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-update.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-patch.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-configure.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-build.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-postinstall.rule
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Stamp/EP_ffmpeg/EP_ffmpeg-force_build.rule

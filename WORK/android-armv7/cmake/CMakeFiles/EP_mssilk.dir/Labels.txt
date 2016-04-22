@@ -1,0 +1,14 @@
+# Target labels
+ EP_mssilk
+# Source files and their labels
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_mssilk
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_mssilk.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_mssilk-complete.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_mssilk/EP_mssilk-install.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_mssilk/EP_mssilk-mkdir.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_mssilk/EP_mssilk-download.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_mssilk/EP_mssilk-update.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_mssilk/EP_mssilk-patch.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_mssilk/EP_mssilk-configure.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_mssilk/EP_mssilk-build.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_mssilk/EP_mssilk-force_build.rule

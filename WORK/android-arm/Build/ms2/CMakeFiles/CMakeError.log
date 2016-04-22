@@ -1,0 +1,60 @@
+Determining if the include file sys/shm.h exists failed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-arm/Build/ms2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa43b/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/ms2/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_aa43b.dir/build.make CMakeFiles/cmTC_aa43b.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/ms2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa43b.dir/CheckIncludeFile.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi/include  -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_aa43b.dir/CheckIncludeFile.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-arm/Build/ms2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/ms2/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+make[5]: *** [CMakeFiles/cmTC_aa43b.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/ms2/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_aa43b/fast] Error 2
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/ms2/CMakeFiles/CMakeTmp'
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-arm/Build/ms2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f24e/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/ms2/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6f24e.dir/build.make CMakeFiles/cmTC_6f24e.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/ms2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f24e.dir/TestEndianess.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi/include  -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_6f24e.dir/TestEndianess.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-arm/Build/ms2/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_6f24e
+/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f24e.dir/link.txt --verbose=1
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm      CMakeFiles/cmTC_6f24e.dir/TestEndianess.c.o  -o cmTC_6f24e -rdynamic /home/lee/android-ndk-r10c/sources/android/libportable/libs/armeabi/libportable.a /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi/libgnustl_static.a -llog -no-canonical-prefixes -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now 
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/ms2/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/ms2/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+

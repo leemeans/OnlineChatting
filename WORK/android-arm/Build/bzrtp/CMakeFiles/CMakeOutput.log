@@ -1,0 +1,22 @@
+The target system is: Linux -  - armeabi
+The host system is: Linux - 4.2.0-35-generic - x86_64
+Determining if the function sqrt exists in the m passed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bzrtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f879c/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bzrtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f879c.dir/build.make CMakeFiles/cmTC_f879c.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bzrtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f879c.dir/CheckFunctionExists.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi/include  -DCHECK_FUNCTION_EXISTS=sqrt   -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_f879c.dir/CheckFunctionExists.c.o   -c /home/lee/cmake-3.5.1-Linux-x86_64/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function 'sqrt' [enabled by default]
+/home/lee/cmake-3.5.1-Linux-x86_64/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_f879c
+/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f879c.dir/link.txt --verbose=1
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -DCHECK_FUNCTION_EXISTS=sqrt    CMakeFiles/cmTC_f879c.dir/CheckFunctionExists.c.o  -o cmTC_f879c -rdynamic /home/lee/android-ndk-r10c/sources/android/libportable/libs/armeabi/libportable.a /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi/libgnustl_static.a -llog -no-canonical-prefixes -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -lm 
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bzrtp/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bzrtp/CMakeFiles/CMakeTmp'
+
+

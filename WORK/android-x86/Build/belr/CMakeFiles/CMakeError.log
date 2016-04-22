@@ -1,0 +1,25 @@
+Determining if files libudev.h exist failed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e62c1/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e62c1.dir/build.make CMakeFiles/cmTC_e62c1.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e62c1.dir/CheckIncludeFiles.c.o
+/home/lee/android-ndk-r10c/toolchains/x86-4.8/prebuilt/linux-x86_64/bin/i686-linux-android-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-x86  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/x86/include  -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -fomit-frame-pointer -fstrict-aliasing -funswitch-loops -finline-limit=300 -o CMakeFiles/cmTC_e62c1.dir/CheckIncludeFiles.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: libudev.h: No such file or directory
+ #include <libudev.h>
+                     ^
+compilation terminated.
+make[5]: *** [CMakeFiles/cmTC_e62c1.dir/CheckIncludeFiles.c.o] Error 1
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_e62c1/fast] Error 2
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/belr/CMakeFiles/CMakeTmp'
+
+Source:
+/* */
+#include <libudev.h>
+
+
+int main(void){return 0;}
+

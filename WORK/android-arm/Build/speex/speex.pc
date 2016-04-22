@@ -1,0 +1,15 @@
+# libspeex pkg-config source file
+
+prefix=/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm
+exec_prefix=/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/bin
+libdir=/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/lib
+includedir=/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/include
+
+Name: speex
+Description: Speex is an audio codec tuned for speech
+Version: 1.2rc1
+Requires:
+Conflicts:
+Libs: -L/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/lib -lspeex
+Libs.private: -lm
+Cflags: -I/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/include

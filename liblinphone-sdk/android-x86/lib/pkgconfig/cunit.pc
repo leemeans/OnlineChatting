@@ -1,0 +1,10 @@
+prefix=/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-x86
+exec_prefix=/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-x86/bin
+libdir=/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-x86/lib
+includedir=/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-x86/include
+
+Name: CUnit
+Description: C Unit Testing Framework
+Version: 2.1-2
+Libs: -L/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-x86/lib -lcunit
+Cflags: -I/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-x86/include

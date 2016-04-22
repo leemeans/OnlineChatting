@@ -1,0 +1,1 @@
+/home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/Makefile

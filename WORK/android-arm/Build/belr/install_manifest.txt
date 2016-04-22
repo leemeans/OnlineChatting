@@ -1,0 +1,10 @@
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/lib/cmake/Belr/BelrTargets.cmake
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/lib/cmake/Belr/BelrTargets-release.cmake
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/lib/cmake/Belr/BelrConfig.cmake
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/include/belr/abnf.hh
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/include/belr/belr.hh
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/include/belr/grammarbuilder.hh
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/include/belr/parser.hh
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/include/belr/parser-impl.cc
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/lib/libbelr.a
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/bin/belr-parse

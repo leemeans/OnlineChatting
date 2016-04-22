@@ -1,0 +1,1 @@
+cmd='/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake;-DENABLE_ISAC=ON;-DENABLE_ILBC=ON;-DENABLE_AECM=ON;-DENABLE_STATIC=NO;-DENABLE_SHARED=YES;-C/home/lee/linphone-android/linphone-android/WORK/android-arm//tmp/EP_mswebrtc/EP_mswebrtc-cache-$<CONFIG>.cmake;-GUnix Makefiles;/home/lee/linphone-android/linphone-android/submodules/mswebrtc'

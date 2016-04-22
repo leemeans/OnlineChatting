@@ -1,0 +1,6 @@
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/lib/libopus.a
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/include/opus/opus_types.h
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/include/opus/opus_multistream.h
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/include/opus/opus_custom.h
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/include/opus/opus.h
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-armv7/include/opus/opus_defines.h

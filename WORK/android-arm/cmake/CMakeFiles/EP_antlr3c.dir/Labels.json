@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/cmake/CMakeFiles/EP_antlr3c"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/cmake/CMakeFiles/EP_antlr3c.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/cmake/CMakeFiles/EP_antlr3c-complete.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_antlr3c/EP_antlr3c-install.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_antlr3c/EP_antlr3c-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_antlr3c/EP_antlr3c-download.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_antlr3c/EP_antlr3c-update.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_antlr3c/EP_antlr3c-patch.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_antlr3c/EP_antlr3c-configure.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_antlr3c/EP_antlr3c-build.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_antlr3c/EP_antlr3c-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EP_antlr3c" ],
+		"name" : "EP_antlr3c"
+	}
+}

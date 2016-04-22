@@ -1,0 +1,14 @@
+# Target labels
+ EP_bctoolbox
+# Source files and their labels
+/home/lee/linphone-android/linphone-android/WORK/android-arm/cmake/CMakeFiles/EP_bctoolbox
+/home/lee/linphone-android/linphone-android/WORK/android-arm/cmake/CMakeFiles/EP_bctoolbox.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/cmake/CMakeFiles/EP_bctoolbox-complete.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_bctoolbox/EP_bctoolbox-install.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_bctoolbox/EP_bctoolbox-mkdir.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_bctoolbox/EP_bctoolbox-download.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_bctoolbox/EP_bctoolbox-update.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_bctoolbox/EP_bctoolbox-patch.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_bctoolbox/EP_bctoolbox-configure.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_bctoolbox/EP_bctoolbox-build.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_bctoolbox/EP_bctoolbox-force_build.rule

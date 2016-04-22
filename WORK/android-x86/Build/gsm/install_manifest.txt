@@ -1,0 +1,2 @@
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-x86/lib/libgsm.a
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-x86/include/gsm/gsm.h

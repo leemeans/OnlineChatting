@@ -1,0 +1,94 @@
+The target system is: Linux -  - armeabi-v7a
+The host system is: Linux - 4.2.0-35-generic - x86_64
+Performing C SOURCE FILE Test VAR_ARRAYS succeeded with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c045/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2c045.dir/build.make CMakeFiles/cmTC_2c045.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c045.dir/src.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include  -DVAR_ARRAYS   -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=softfp -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_2c045.dir/src.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2c045
+/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c045.dir/link.txt --verbose=1
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -DVAR_ARRAYS    CMakeFiles/cmTC_2c045.dir/src.c.o  -o cmTC_2c045 -rdynamic /home/lee/android-ndk-r10c/sources/android/libportable/libs/armeabi-v7a/libportable.a /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/libgnustl_static.a -llog -march=armv7-a -Wl,--fix-cortex-a8 -no-canonical-prefixes -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now 
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(int argc, char *argv[]) { static int x; char a[++x]; a[sizeof a - 1] = 0; int N; return a[0]; }
+Performing C SOURCE FILE Test OPUS_ARM_INLINE_ASM succeeded with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fcbf5/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fcbf5.dir/build.make CMakeFiles/cmTC_fcbf5.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcbf5.dir/src.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include  -DOPUS_ARM_INLINE_ASM   -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=softfp -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_fcbf5.dir/src.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fcbf5
+/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcbf5.dir/link.txt --verbose=1
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -DOPUS_ARM_INLINE_ASM    CMakeFiles/cmTC_fcbf5.dir/src.c.o  -o cmTC_fcbf5 -rdynamic /home/lee/android-ndk-r10c/sources/android/libportable/libs/armeabi-v7a/libportable.a /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/libgnustl_static.a -llog -march=armv7-a -Wl,--fix-cortex-a8 -no-canonical-prefixes -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now 
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#ifdef __GNUC_MINOR__
+#if (__GNUC__ * 1000 + __GNUC_MINOR__) < 3004
+#error GCC before 3.4 has critical bugs compiling inline assembly
+#endif
+#endif
+int main(int argc, char *argv[]) { __asm__ (""); }
+
+Performing C SOURCE FILE Test OPUS_ARM_INLINE_EDSP succeeded with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9712/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f9712.dir/build.make CMakeFiles/cmTC_f9712.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9712.dir/src.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include  -DOPUS_ARM_INLINE_EDSP   -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=softfp -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_f9712.dir/src.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f9712
+/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9712.dir/link.txt --verbose=1
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -DOPUS_ARM_INLINE_EDSP    CMakeFiles/cmTC_f9712.dir/src.c.o  -o cmTC_f9712 -rdynamic /home/lee/android-ndk-r10c/sources/android/libportable/libs/armeabi-v7a/libportable.a /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/libgnustl_static.a -llog -march=armv7-a -Wl,--fix-cortex-a8 -no-canonical-prefixes -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now 
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(int argc, char *argv[]) { __asm__("qadd r3,r3,r3"); }
+Performing C SOURCE FILE Test OPUS_ARM_INLINE_MEDIA succeeded with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e067e/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e067e.dir/build.make CMakeFiles/cmTC_e067e.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e067e.dir/src.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include  -DOPUS_ARM_INLINE_MEDIA   -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=softfp -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_e067e.dir/src.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e067e
+/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e067e.dir/link.txt --verbose=1
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -DOPUS_ARM_INLINE_MEDIA    CMakeFiles/cmTC_e067e.dir/src.c.o  -o cmTC_e067e -rdynamic /home/lee/android-ndk-r10c/sources/android/libportable/libs/armeabi-v7a/libportable.a /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/libgnustl_static.a -llog -march=armv7-a -Wl,--fix-cortex-a8 -no-canonical-prefixes -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now 
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(int argc, char *argv[]) { __asm__("shadd8 r3,r3,r3"); }
+Performing C SOURCE FILE Test OPUS_ARM_MAY_HAVE_NEON succeeded with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cbee2/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cbee2.dir/build.make CMakeFiles/cmTC_cbee2.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cbee2.dir/src.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include  -DOPUS_ARM_MAY_HAVE_NEON   -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=softfp -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_cbee2.dir/src.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cbee2
+/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbee2.dir/link.txt --verbose=1
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -DOPUS_ARM_MAY_HAVE_NEON    CMakeFiles/cmTC_cbee2.dir/src.c.o  -o cmTC_cbee2 -rdynamic /home/lee/android-ndk-r10c/sources/android/libportable/libs/armeabi-v7a/libportable.a /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/libgnustl_static.a -llog -march=armv7-a -Wl,--fix-cortex-a8 -no-canonical-prefixes -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now 
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(int argc, char *argv[]) { __asm__(".arch armv7-a\n.fpu neon\n.object_arch armv4t\nvorr d0,d0,d0"); }

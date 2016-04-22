@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/celt/arm/armopts-gnu.S
+
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/opus/celt/arm/celt_pitch_xcorr_arm-gnu.S
+

@@ -1,0 +1,80 @@
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35bfd/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_35bfd.dir/build.make CMakeFiles/cmTC_35bfd.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35bfd.dir/CheckFunctionExists.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi/include  -DCHECK_FUNCTION_EXISTS=clock_gettime   -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_35bfd.dir/CheckFunctionExists.c.o   -c /home/lee/cmake-3.5.1-Linux-x86_64/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_35bfd
+/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35bfd.dir/link.txt --verbose=1
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_35bfd.dir/CheckFunctionExists.c.o  -o cmTC_35bfd -rdynamic /home/lee/android-ndk-r10c/sources/android/libportable/libs/armeabi/libportable.a /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi/libgnustl_static.a -llog -no-canonical-prefixes -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -lrt 
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lrt
+collect2: error: ld returned 1 exit status
+make[5]: *** [cmTC_35bfd] Error 1
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_35bfd/fast] Error 2
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp'
+
+
+Determining if the res_ndestroy exist failed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb114/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_eb114.dir/build.make CMakeFiles/cmTC_eb114.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb114.dir/CheckSymbolExists.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi/include  -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_eb114.dir/CheckSymbolExists.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: 'res_ndestroy' undeclared (first use in this function)
+   return ((int*)(&res_ndestroy))[argc];
+                   ^
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[5]: *** [CMakeFiles/cmTC_eb114.dir/CheckSymbolExists.c.o] Error 1
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_eb114/fast] Error 2
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp'
+
+File /home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <resolv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef res_ndestroy
+  return ((int*)(&res_ndestroy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_RES_GETSERVERS failed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b70e0/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b70e0.dir/build.make CMakeFiles/cmTC_b70e0.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b70e0.dir/src.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi/include  -DHAVE_RES_GETSERVERS   -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_b70e0.dir/src.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b70e0
+/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b70e0.dir/link.txt --verbose=1
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -DHAVE_RES_GETSERVERS    CMakeFiles/cmTC_b70e0.dir/src.c.o  -o cmTC_b70e0 -rdynamic /home/lee/android-ndk-r10c/sources/android/libportable/libs/armeabi/libportable.a /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi/libgnustl_static.a -llog -no-canonical-prefixes -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -lresolv 
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lresolv
+CMakeFiles/cmTC_b70e0.dir/src.c.o:src.c:function main: error: undefined reference to 'res_getservers'
+collect2: error: ld returned 1 exit status
+make[5]: *** [cmTC_b70e0] Error 1
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_b70e0/fast] Error 2
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/bellesip/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <resolv.h>
+int main(int argc, char *argv[]) {
+res_getservers(NULL,NULL,0);
+return 0;
+}

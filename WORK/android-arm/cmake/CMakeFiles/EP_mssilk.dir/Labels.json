@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/cmake/CMakeFiles/EP_mssilk"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/cmake/CMakeFiles/EP_mssilk.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/cmake/CMakeFiles/EP_mssilk-complete.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_mssilk/EP_mssilk-install.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_mssilk/EP_mssilk-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_mssilk/EP_mssilk-download.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_mssilk/EP_mssilk-update.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_mssilk/EP_mssilk-patch.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_mssilk/EP_mssilk-configure.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_mssilk/EP_mssilk-build.rule"
+		},
+		
+		{
+			"file" : "/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_mssilk/EP_mssilk-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EP_mssilk" ],
+		"name" : "EP_mssilk"
+	}
+}

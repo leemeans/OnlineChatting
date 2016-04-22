@@ -1,0 +1,62 @@
+Determining if the include file sys/audioio.h exists failed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c65ed/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c65ed.dir/build.make CMakeFiles/cmTC_c65ed.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c65ed.dir/CheckIncludeFile.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include  -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=softfp -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_c65ed.dir/CheckIncludeFile.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/audioio.h: No such file or directory
+ #include <sys/audioio.h>
+                         ^
+compilation terminated.
+make[5]: *** [CMakeFiles/cmTC_c65ed.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_c65ed/fast] Error 2
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/soundcard.h exists failed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02a7b/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_02a7b.dir/build.make CMakeFiles/cmTC_02a7b.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02a7b.dir/CheckIncludeFile.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include  -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=softfp -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_02a7b.dir/CheckIncludeFile.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:27: fatal error: sys/soundcard.h: No such file or directory
+ #include <sys/soundcard.h>
+                           ^
+compilation terminated.
+make[5]: *** [CMakeFiles/cmTC_02a7b.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_02a7b/fast] Error 2
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAS_SSE failed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d965/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8d965.dir/build.make CMakeFiles/cmTC_8d965.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d965.dir/src.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include  -DHAS_SSE   -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv7-a -mfpu=vfpv3-d16 -mfloat-abi=softfp -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_8d965.dir/src.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp/src.c
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp/src.c:1:23: fatal error: xmmintrin.h: No such file or directory
+ #include <xmmintrin.h>
+                       ^
+compilation terminated.
+make[5]: *** [CMakeFiles/cmTC_8d965.dir/src.c.o] Error 1
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_8d965/fast] Error 2
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-armv7/Build/speex/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <xmmintrin.h>
+__m128 testfunc(float *a, float *b) {
+return _mm_add_ps(_mm_loadu_ps(a), _mm_loadu_ps(b));
+}
+int main(int argc, char *argv[]) {}

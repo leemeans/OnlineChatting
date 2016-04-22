@@ -1,0 +1,62 @@
+Determining if the include file sys/audioio.h exists failed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4dda5/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4dda5.dir/build.make CMakeFiles/cmTC_4dda5.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4dda5.dir/CheckIncludeFile.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi/include  -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_4dda5.dir/CheckIncludeFile.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/audioio.h: No such file or directory
+ #include <sys/audioio.h>
+                         ^
+compilation terminated.
+make[5]: *** [CMakeFiles/cmTC_4dda5.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_4dda5/fast] Error 2
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/soundcard.h exists failed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fdeb0/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fdeb0.dir/build.make CMakeFiles/cmTC_fdeb0.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fdeb0.dir/CheckIncludeFile.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi/include  -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_fdeb0.dir/CheckIncludeFile.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:27: fatal error: sys/soundcard.h: No such file or directory
+ #include <sys/soundcard.h>
+                           ^
+compilation terminated.
+make[5]: *** [CMakeFiles/cmTC_fdeb0.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_fdeb0/fast] Error 2
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAS_SSE failed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1f6e/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b1f6e.dir/build.make CMakeFiles/cmTC_b1f6e.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1f6e.dir/src.c.o
+/home/lee/android-ndk-r10c/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-arm  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi/include  -DHAS_SSE   -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fomit-frame-pointer -fno-strict-aliasing -finline-limit=64 -o CMakeFiles/cmTC_b1f6e.dir/src.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp/src.c
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp/src.c:1:23: fatal error: xmmintrin.h: No such file or directory
+ #include <xmmintrin.h>
+                       ^
+compilation terminated.
+make[5]: *** [CMakeFiles/cmTC_b1f6e.dir/src.c.o] Error 1
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_b1f6e/fast] Error 2
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-arm/Build/speex/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <xmmintrin.h>
+__m128 testfunc(float *a, float *b) {
+return _mm_add_ps(_mm_loadu_ps(a), _mm_loadu_ps(b));
+}
+int main(int argc, char *argv[]) {}

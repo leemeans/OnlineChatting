@@ -1,0 +1,14 @@
+# Target labels
+ EP_mswebrtc
+# Source files and their labels
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_mswebrtc
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_mswebrtc.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_mswebrtc-complete.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_mswebrtc/EP_mswebrtc-install.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_mswebrtc/EP_mswebrtc-mkdir.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_mswebrtc/EP_mswebrtc-download.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_mswebrtc/EP_mswebrtc-update.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_mswebrtc/EP_mswebrtc-patch.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_mswebrtc/EP_mswebrtc-configure.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_mswebrtc/EP_mswebrtc-build.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_mswebrtc/EP_mswebrtc-force_build.rule

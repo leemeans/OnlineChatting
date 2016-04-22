@@ -1,0 +1,1 @@
+cmd='/home/lee/cmake-3.5.1-Linux-x86_64/bin/cmake;-DENABLE_AUTOMATED=YES;-DENABLE_CONSOLE=NO;-DENABLE_STATIC=YES;-DENABLE_SHARED=NO;-C/home/lee/linphone-android/linphone-android/WORK/android-x86//tmp/EP_cunit/EP_cunit-cache-$<CONFIG>.cmake;-GUnix Makefiles;/home/lee/linphone-android/linphone-android/submodules/externals/cunit'

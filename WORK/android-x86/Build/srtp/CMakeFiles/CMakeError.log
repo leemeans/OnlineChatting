@@ -1,0 +1,57 @@
+Determining if the include file machine/types.h exists failed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41be0/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_41be0.dir/build.make CMakeFiles/cmTC_41be0.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41be0.dir/CheckIncludeFile.c.o
+/home/lee/android-ndk-r10c/toolchains/x86-4.8/prebuilt/linux-x86_64/bin/i686-linux-android-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-x86  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/x86/include  -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -fomit-frame-pointer -fstrict-aliasing -funswitch-loops -finline-limit=300 -o CMakeFiles/cmTC_41be0.dir/CheckIncludeFile.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:27: fatal error: machine/types.h: No such file or directory
+ #include <machine/types.h>
+                           ^
+compilation terminated.
+make[5]: *** [CMakeFiles/cmTC_41be0.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_41be0/fast] Error 2
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/int_types.h exists failed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8d1a/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b8d1a.dir/build.make CMakeFiles/cmTC_b8d1a.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8d1a.dir/CheckIncludeFile.c.o
+/home/lee/android-ndk-r10c/toolchains/x86-4.8/prebuilt/linux-x86_64/bin/i686-linux-android-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-x86  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/x86/include  -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -fomit-frame-pointer -fstrict-aliasing -funswitch-loops -finline-limit=300 -o CMakeFiles/cmTC_b8d1a.dir/CheckIncludeFile.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:27: fatal error: sys/int_types.h: No such file or directory
+ #include <sys/int_types.h>
+                           ^
+compilation terminated.
+make[5]: *** [CMakeFiles/cmTC_b8d1a.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_b8d1a/fast] Error 2
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44c95/fast"
+make[4]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_44c95.dir/build.make CMakeFiles/cmTC_44c95.dir/build
+make[5]: Entering directory `/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44c95.dir/CheckIncludeFile.c.o
+/home/lee/android-ndk-r10c/toolchains/x86-4.8/prebuilt/linux-x86_64/bin/i686-linux-android-gcc  --sysroot=/home/lee/android-ndk-r10c/platforms/android-14/arch-x86  -isystem /home/lee/android-ndk-r10c/sources/cpufeatures -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/include -isystem /home/lee/android-ndk-r10c/sources/cxx-stl/gnu-libstdc++/4.8/libs/x86/include  -ffunction-sections -funwind-tables -fstack-protector -no-canonical-prefixes -fomit-frame-pointer -fstrict-aliasing -funswitch-loops -finline-limit=300 -o CMakeFiles/cmTC_44c95.dir/CheckIncludeFile.c.o   -c /home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: windows.h: No such file or directory
+ #include <windows.h>
+                     ^
+compilation terminated.
+make[5]: *** [CMakeFiles/cmTC_44c95.dir/CheckIncludeFile.c.o] Error 1
+make[5]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+make[4]: *** [cmTC_44c95/fast] Error 2
+make[4]: Leaving directory `/home/lee/linphone-android/linphone-android/WORK/android-x86/Build/srtp/CMakeFiles/CMakeTmp'
+
+

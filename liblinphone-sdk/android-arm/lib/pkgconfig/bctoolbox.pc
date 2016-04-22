@@ -1,0 +1,9 @@
+# This is a comment
+prefix=/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm
+
+Name:  bctoolbox
+Description: A common set of tools used by Belledonne Communications's softwares
+Version: 0.0.2
+Libs: -L/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/lib -lbctoolbox
+Libs.private:  -L
+Cflags: -I/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/include

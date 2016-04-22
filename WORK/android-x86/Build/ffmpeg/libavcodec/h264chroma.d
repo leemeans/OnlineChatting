@@ -1,0 +1,37 @@
+libavcodec/h264chroma.o: \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavcodec/h264chroma.c \
+ config.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavcodec/h264chroma.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavcodec/h264chroma_template.c \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/avassert.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/avutil.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/common.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/attributes.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/version.h \
+ libavutil/avconfig.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/intmath.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/mem.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/error.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/internal.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/timer.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/x86/timer.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/cpu.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/dict.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/x86/emms.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/attributes.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/cpu.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/libm.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/intfloat.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/mathematics.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/rational.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/intfloat_readwrite.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/log.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/pixfmt.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/version.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/old_pix_fmts.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavcodec/bit_depth_template.c \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavcodec/rnd_avg.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/intreadwrite.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/bswap.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/x86/bswap.h \
+ /home/lee/linphone-android/linphone-android/submodules/externals/ffmpeg/libavutil/x86/intreadwrite.h

@@ -1,0 +1,1 @@
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-arm/lib/mediastreamer/plugins/libmswebrtc.so

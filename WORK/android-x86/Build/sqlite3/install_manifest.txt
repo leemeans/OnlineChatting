@@ -1,0 +1,3 @@
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-x86/lib/libsqlite3.a
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-x86/include/sqlite3ext.h
+/home/lee/linphone-android/linphone-android/liblinphone-sdk/android-x86/include/sqlite3.h

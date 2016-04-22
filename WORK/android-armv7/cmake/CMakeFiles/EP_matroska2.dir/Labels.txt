@@ -1,0 +1,14 @@
+# Target labels
+ EP_matroska2
+# Source files and their labels
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_matroska2
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_matroska2.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/cmake/CMakeFiles/EP_matroska2-complete.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_matroska2/EP_matroska2-install.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_matroska2/EP_matroska2-mkdir.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_matroska2/EP_matroska2-download.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_matroska2/EP_matroska2-update.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_matroska2/EP_matroska2-patch.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_matroska2/EP_matroska2-configure.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_matroska2/EP_matroska2-build.rule
+/home/lee/linphone-android/linphone-android/WORK/android-armv7/Stamp/EP_matroska2/EP_matroska2-force_build.rule

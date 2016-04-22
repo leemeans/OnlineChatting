@@ -1,0 +1,14 @@
+# Target labels
+ EP_bzrtp
+# Source files and their labels
+/home/lee/linphone-android/linphone-android/WORK/android-arm/cmake/CMakeFiles/EP_bzrtp
+/home/lee/linphone-android/linphone-android/WORK/android-arm/cmake/CMakeFiles/EP_bzrtp.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/cmake/CMakeFiles/EP_bzrtp-complete.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_bzrtp/EP_bzrtp-install.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_bzrtp/EP_bzrtp-mkdir.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_bzrtp/EP_bzrtp-download.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_bzrtp/EP_bzrtp-update.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_bzrtp/EP_bzrtp-patch.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_bzrtp/EP_bzrtp-configure.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_bzrtp/EP_bzrtp-build.rule
+/home/lee/linphone-android/linphone-android/WORK/android-arm/Stamp/EP_bzrtp/EP_bzrtp-force_build.rule

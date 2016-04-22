@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_enabled="false"
+		  android:drawable="@drawable/camera_disabled" />
+	<item
+		android:drawable="@drawable/camera_default" />
+</selector>
+<!-- From: file:/home/lee/linphone-androi/linphone-android/res/drawable/camera_button.xml -->
