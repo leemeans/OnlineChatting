@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/lee/linphone-androi/linphone-android/res/values-sw533dp/non_localizable_strings.xml -->
+    <!-- From: file:/home/lee/GitProject/OnlineChatting/res/values-sw533dp/non_localizable_strings.xml -->
     <eat-comment/>
     <bool name="isTablet">true</bool>
 </resources>

@@ -4,4 +4,4 @@
 		  android:drawable="@drawable/checkbox_unchecked"/>
 	<item android:state_checked="true"
 		  android:drawable="@drawable/checkbox_checked"/>
-</selector><!-- From: file:/home/lee/linphone-androi/linphone-android/res/drawable/checkbox.xml -->
+</selector><!-- From: file:/home/lee/GitProject/OnlineChatting/res/drawable/checkbox.xml -->

@@ -5,4 +5,4 @@
     <item android:state_enabled="false"
          android:drawable="@drawable/history_missed_selected" />
 </selector>
-<!-- From: file:/home/lee/linphone-androi/linphone-android/res/drawable/history_missed.xml -->
+<!-- From: file:/home/lee/GitProject/OnlineChatting/res/drawable/history_missed.xml -->

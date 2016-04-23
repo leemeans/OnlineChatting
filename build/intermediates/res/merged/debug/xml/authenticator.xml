@@ -5,4 +5,4 @@
     android:accountType="@string/sync_account_type"
     android:icon="@drawable/linphone_logo"
     android:smallIcon="@drawable/linphone_logo"
-    android:label="@string/app_name"/><!-- From: file:/home/lee/linphone-androi/linphone-android/res/xml/authenticator.xml -->
+    android:label="@string/app_name"/><!-- From: file:/home/lee/GitProject/OnlineChatting/res/xml/authenticator.xml -->

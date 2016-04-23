@@ -12,4 +12,4 @@
 	    android:cacheColorHint="@color/transparent"
 	    android:scrollbarAlwaysDrawVerticalTrack="true" />
     
-</RelativeLayout><!-- From: file:/home/lee/linphone-androi/linphone-android/res/layout/settings.xml -->
+</RelativeLayout><!-- From: file:/home/lee/GitProject/OnlineChatting/res/layout/settings.xml -->

@@ -5,4 +5,4 @@
     android:layout_height="match_parent"
     android:drawSelectorOnTop="false"
     android:cacheColorHint="@color/transparent"
-    android:scrollbarAlwaysDrawVerticalTrack="true" /><!-- From: file:/home/lee/linphone-androi/linphone-android/res/layout/preference_list_content.xml -->
+    android:scrollbarAlwaysDrawVerticalTrack="true" /><!-- From: file:/home/lee/GitProject/OnlineChatting/res/layout/preference_list_content.xml -->

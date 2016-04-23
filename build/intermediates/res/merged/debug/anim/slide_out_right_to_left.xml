@@ -5,4 +5,4 @@
     	android:fromXDelta="0%" android:toXDelta="-100%"
     	android:fromYDelta="0%" android:toYDelta="0%"
    		android:duration="350" />
-</set><!-- From: file:/home/lee/linphone-androi/linphone-android/res/anim/slide_out_right_to_left.xml -->
+</set><!-- From: file:/home/lee/GitProject/OnlineChatting/res/anim/slide_out_right_to_left.xml -->

@@ -5,4 +5,4 @@
 	  <item android:maxLevel="2" android:drawable="@drawable/linphone_notification_icon" />
 	  <item android:maxLevel="3" android:drawable="@drawable/linphone_notification_icon" />
 </level-list>
-<!-- From: file:/home/lee/linphone-androi/linphone-android/res/drawable/status_level.xml -->
+<!-- From: file:/home/lee/GitProject/OnlineChatting/res/drawable/status_level.xml -->

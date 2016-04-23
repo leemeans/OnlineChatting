@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/submodules/bcg729" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/submodules/bctoolbox" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/submodules/belcard" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/submodules/belle-sip" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/submodules/belr" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/submodules/bzrtp" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/submodules/cmake-builder" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/submodules/linphone" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/submodules/msamr" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/submodules/mscodec2" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/submodules/msopenh264" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/submodules/mssilk" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/submodules/mswebrtc" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/submodules/msx264" vcs="Git" />
+    <mapping directory="" vcs="" />
   </component>
 </project>

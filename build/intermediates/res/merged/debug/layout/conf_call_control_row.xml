@@ -56,4 +56,4 @@
         android:scaleType="fitCenter"
         android:adjustViewBounds="true" />
 
-</LinearLayout><!-- From: file:/home/lee/linphone-androi/linphone-android/res/layout/conf_call_control_row.xml -->
+</LinearLayout><!-- From: file:/home/lee/GitProject/OnlineChatting/res/layout/conf_call_control_row.xml -->

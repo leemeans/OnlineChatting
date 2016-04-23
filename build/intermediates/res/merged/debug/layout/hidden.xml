@@ -2,4 +2,4 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="fill_parent" android:layout_height="fill_parent" android:visibility="gone">
 </LinearLayout>
-<!-- From: file:/home/lee/linphone-androi/linphone-android/res/layout/hidden.xml -->
+<!-- From: file:/home/lee/GitProject/OnlineChatting/res/layout/hidden.xml -->

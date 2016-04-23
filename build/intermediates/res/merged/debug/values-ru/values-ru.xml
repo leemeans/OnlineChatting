@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/lee/linphone-androi/linphone-android/res/values-ru/strings.xml -->
+    <!-- From: file:/home/lee/GitProject/OnlineChatting/res/values-ru/strings.xml -->
     <eat-comment/>
     <string-array name="tunnel_mode_entries">
     <item>выключено</item>

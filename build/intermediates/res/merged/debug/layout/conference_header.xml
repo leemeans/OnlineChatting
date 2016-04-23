@@ -46,4 +46,4 @@
 		android:background="@color/colorE"
 		android:layout_alignParentBottom="true"/>
 
-</RelativeLayout><!-- From: file:/home/lee/linphone-androi/linphone-android/res/layout/conference_header.xml -->
+</RelativeLayout><!-- From: file:/home/lee/GitProject/OnlineChatting/res/layout/conference_header.xml -->

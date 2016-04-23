@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/lee/linphone-androi/linphone-android/res/values-sv/strings.xml -->
+    <!-- From: file:/home/lee/GitProject/OnlineChatting/res/values-sv/strings.xml -->
     <eat-comment/>
     <string name="about">Om</string>
     <string name="accept">Acceptera</string>

@@ -85,4 +85,4 @@
 			android:visibility="gone"
 			android:layout_alignParentRight="true" />
 	</RelativeLayout>
-</RelativeLayout><!-- From: file:/home/lee/linphone-androi/linphone-android/res/layout/status.xml -->
+</RelativeLayout><!-- From: file:/home/lee/GitProject/OnlineChatting/res/layout/status.xml -->

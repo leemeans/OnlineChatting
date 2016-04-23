@@ -4,4 +4,4 @@
         android:drawable="@drawable/contacts_sip_default" />
     <item android:state_enabled="false"
          android:drawable="@drawable/contacts_sip_selected" />
-</selector><!-- From: file:/home/lee/linphone-androi/linphone-android/res/drawable/contacts_sip.xml -->
+</selector><!-- From: file:/home/lee/GitProject/OnlineChatting/res/drawable/contacts_sip.xml -->
